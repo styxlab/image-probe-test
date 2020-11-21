@@ -1,0 +1,19 @@
+{
+  "name": "ghost-api-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "exec": "node netlifyAPI.js"
+  },
+  "author": "styxlab",
+  "license": "MIT",
+  "dependencies": {
+    "@tryghost/content-api": "^1.4.10",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^2.6.1",
+    "probe-image-size": "^6.0.0"
+  }
+}
